@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+root { 
+    display: block;
+}
+
+#wrapper {
+	background-color: #FFF;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+    width: 960px;
+	height: auto
+}
+
+#header {
+	margin: 0px;
+	padding: 0px;
+	background:url('../images/header.png');
+	background-repeat: no-repeat;
+    height: 175px;
+	width: 960px;
+	float: left;
+}
+ 
+#header_content {	
+	margin: 0px;
+	padding-left: 120px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	height: 110px;
+}
+
+#main_nav img { border: none; }
+#main_nav { display: block; margin: 0px; padding-right: 3px; background-color: transparent; height: 40px; }
+#main_nav a { float: right; display:block; width: 140px; height: 40px; margin: 0px 3px; }
+
+.home a { background:url('../images/menubuttons/home.png') no-repeat left bottom; }
+.services a { background:url('../images/menubuttons/services.png') no-repeat left bottom; }
+.portfolio a { background:url('../images/menubuttons/portfolio.png') no-repeat left bottom; }
+.about a { background:url('../images/menubuttons/about.png') no-repeat left bottom; }
+.contact a { background:url('../images/menubuttons/contact.png') no-repeat left bottom; }
+
+.home a:hover { background:url('../images/menubuttons/homehover.png') no-repeat left bottom; }
+.services a:hover { background:url('../images/menubuttons/serviceshover.png') no-repeat left bottom; }
+.portfolio a:hover { background:url('../images/menubuttons/portfoliohover.png') no-repeat left bottom; }
+.about a:hover { background:url('../images/menubuttons/abouthover.png') no-repeat left bottom; }
+.contact a:hover { background:url('../images/menubuttons/contacthover.png') no-repeat left bottom; }
+
+.hideme {display: none;}
+
+body#home a#home_nav {
+	background:url('../images/menubuttons/homeactive.png');
+}
+body#services a#services_nav {
+	background:url('../images/menubuttons/servicesactive.png');
+}
+body#portfolio a#portfolio_nav {
+	background:url('../images/menubuttons/portfolioactive.png');
+}
+body#about a#about_nav {
+	background:url('../images/menubuttons/aboutactive.png');
+}
+body#contact a#contact_nav {
+	background:url('../images/menubuttons/contactactive.png');
+}
+
+#container {
+	height: inherit;
+    clear: both;
+    margin: 0px;
+    padding: 5px;
+	padding-bottom: 0;
+}
+#container_index {
+	height:640px;
+	width:960px;
+    clear: both;
+	background-color:#dde8fc;
+    background-image:url('../images/logos/final-logo2.png');
+    background-position:300px, 150px; 
+	background-repeat: no-repeat;
+    margin: 0px;
+}
+
+
+#sub_menu { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; float: left; display: block; margin: 4px; padding: 5px; width: 204px; height: auto; }
+#sub_menu a {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; float: left; display:block; width: 150px; height: 20px; margin: 0px; text-align: left; }
+
+
+
+#sub_menu a:hover {
+	margin: 0;
+	color: #000;
+	text-decoration: underline;
+	background-color: #ddd;
+	display: inline;
+}
+
+div#bw a#bw_nav, div#nature a#nature_nav, div#portrait a#portrait_nav, div#events a#events_nav, div#doc a#doc_nav {
+	color: #000;
+	text-decoration: underline;
+	background-color: #eee;
+}
+
+#content, #bw, #nature, #portrait, #events, #doc {
+	margin: 4px;
+	padding: 20px;
+	width: 680px;
+	height: auto;
+	float: left;
+}
+
+#wide_content {
+	margin-left: 20px;
+	padding-top: 20;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	width: 840px;
+	height: auto;
+	float: left;
+}
+#footer {
+	height: 110px;
+    clear: both;
+    margin: 0px;
+    padding: 5px;
+	padding-bottom: 0;
+    font-size: 11px;
+	alignment-adjust: baseline;
+}
+
+#left_footer {
+	margin: 4 0;
+	padding: 5px;
+	width: 204px;
+	height: auto;
+	text-align: center;
+	float: left;
+}
+
+#right_footer {
+	margin: 4 0;
+	padding: 5px;
+	width: 710px;
+	height: auto;
+    text-align: center;
+	float: left;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	overflow: auto;
+}
+
+body, td, th, form {
+	color: #000;
+}
+
+h1 {
+	text-shadow: -2px 2px 5px #666;
+}
+
+h1, h2, h3, h4, h5, h6, p, font {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 10px;
+}
+
+img {
+	border: none;
+}
+
+hr {
+	color: #000;
+	text-shadow: -2px 2px 5px #666;
+	width: 90%;
+	size: 20px;
+}
+
+#frame {
+	width: 640px;
+	margin: 0 auto;
+	height: 480px;	
+	border: 20px #333333 double;
+	margin-bottom: 5px;
+}
+
+#imageHolder {
+
+}
+
+#thumbs {
+	margin-top: 0px;
+	margin-left: 15px;
+	padding: 0px;
+	width: 650px;
+	height: 105px;
+	overflow: auto;
+}
+
+#thumbs img {
+	border: solid 3px #333333;
+}

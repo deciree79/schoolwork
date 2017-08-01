@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+root { 
+    display: block;
+}
+
+#wrapper {
+	background-color: #FFF;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+    width: 960px;
+	height: auto
+}
+
+#main_nav img { border: none; }
+#main_nav { display: block; margin: 0px; padding-right: 3px; background-color: transparent; height: 40px; margin-top:100px; margin-left:40px; float:left; width:150px; }
+#main_nav a { float:left; width:150px; display:block; height: 40px; margin:0px 3px; }
+
+.home a { background:url('../images/menubuttons/home.png') no-repeat left bottom; }
+.services a { background:url('../images/menubuttons/services.png') no-repeat left bottom; }
+.portfolio a { background:url('../images/menubuttons/portfolio.png') no-repeat left bottom; }
+.about a { background:url('../images/menubuttons/about.png') no-repeat left bottom; }
+.contact a { background:url('../images/menubuttons/contact.png') no-repeat left bottom; }
+
+.home a:hover { background:url('../images/menubuttons/homehover.png') no-repeat left bottom; }
+.services a:hover { background:url('../images/menubuttons/serviceshover.png') no-repeat left bottom; }
+.portfolio a:hover { background:url('../images/menubuttons/portfoliohover.png') no-repeat left bottom; }
+.about a:hover { background:url('../images/menubuttons/abouthover.png') no-repeat left bottom; }
+.contact a:hover { background:url('../images/menubuttons/contacthover.png') no-repeat left bottom; }
+
+.hideme {display: none;}
+
+#container {
+	height:640px;
+	width:960px;
+    clear: both;
+	background-color:#dde8fc;
+    margin: 0px;
+}
+
+#logo {
+	margin-left: 200px;
+	margin-top: 55px;
+	height: 380;
+	width: 300;
+	float: left;	
+}
+
+#footer {
+	height: 110px;
+    clear: both;
+    margin: 0px;
+    padding: 5px;
+	padding-top:65px;
+	padding-left:3px;
+	padding-bottom: 0;
+    font-size: 11px;
+	alignment-adjust: baseline;
+	position:relative;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	overflow: auto;
+}
+
+p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 10px;
+}
+
+img {
+	border: none;
+}
+
+hr {
+	color: #000;
+	text-shadow: -2px 2px 5px #666;
+	width: 90%;
+	size: 20px;
+}
