@@ -1,0 +1,175 @@
+
+root { 
+    display: block;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+    width: 960px;
+	height: auto;
+}
+
+#header {
+	margin: 0px;
+	background-color: #069;
+	background-image: url('images/header_keyboard.png');
+	background-repeat: no-repeat;
+    padding-left: 80px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+    height: 85px;
+}
+
+a {
+	margin: 0px;
+	color: #909;
+	display: inline;
+    text-decoration: underline;
+	background-color: transparent;
+}
+
+a:hover {
+	color: #cfc;
+	text-decoration: underline;
+	background-color: #909;
+}
+
+a:visited {
+	color: #F09;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+#main_nav img { border: none; }
+#main_nav { display: block; margin: 0px; padding: 0px; background-color: #08b; width: 960px; height: 50px; }
+#main_nav a { float: left; display:block; width: 180px; height: 50px; margin: 0px 6px; }
+
+.start a { background:url('images/start_over.png') no-repeat left bottom; }
+.services a { background:url('images/service_over.png') no-repeat left bottom; }
+.lore a { background:url('images/lore_over.png') no-repeat left bottom; }
+.about a { background:url('images/about_over.png') no-repeat left bottom; }
+.contact a { background:url('images/contact_over.png') no-repeat left bottom; }
+#business a { background:url('images/business_over.png') no-repeat left bottom; }
+#drupal a { background:url('images/drupal_over.png') no-repeat left bottom; }
+
+.start a:hover { background:url('images/start.png') no-repeat left bottom; }
+.services a:hover { background:url('images/service.png') no-repeat left bottom; }
+.lore a:hover { background:url('images/lore.png') no-repeat left bottom; }
+.about a:hover { background:url('images/about.png') no-repeat left bottom; }
+.contact a:hover { background:url('images/contact.png') no-repeat left bottom; }
+#business a:hover { background:url('images/business.png') no-repeat left bottom; }
+#drupal a:hover { background:url('images/drupal.png') no-repeat left bottom; }
+
+.hideme {display: none;}
+
+body#start a#start_nav {
+	background:url('images/start_active.png');
+}
+body#services a#services_nav {
+	background:url('images/service_active.png');
+}
+body#lore a#lore_nav {
+	background:url('images/lore_active.png');
+}
+body#about a#about_nav {
+	background:url('images/about_active.png');
+}
+body#contact a#contact_nav {
+	background:url('images/contact_active.png');
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
+    height: inherit;
+	background-color: #cfc;
+	background-image:url('images/portrait_green_tranparant_warm_op.png');
+	background-repeat: no-repeat;
+	background-position: center 150px;
+	background-attachment: fixed;
+    float: left;
+}
+
+#content {
+	margin: 0px;
+	padding: 20px;
+	width: 735px;
+	height: inherit;
+	background-color: transparent;
+	float: left;
+	position: relative;
+}
+
+#sub_menu {
+	margin: 0px;
+	padding: 5px;
+	width: 175px;
+	height:  inherit;
+	background-color: transparent;
+	background-image: url('images/bg_submenu.png');
+	background-repeat: repeat-y;
+	float: left;
+	position: relative;
+}
+
+#footer {
+	background-color: #07a;
+    height: 70px;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+	padding-bottom: 0;
+    font-size: 10px;
+	alignment-adjust: baseline;
+}
+
+#left {
+	margin: 0px;
+	padding: 5px;
+	padding-top: 15px;
+	width: 765px;
+	height: inherit;
+    text-align: center;
+	float: left;
+}
+
+#right {
+	margin: 0px;
+	padding: 5px;
+	width: 175px;
+	height: inherit;
+    text-align: center;
+	float: right;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	overflow: auto;
+}
+
+body, td, th, form {
+	color: #909;
+}
+
+h1 {
+	text-shadow: -2px 2px 5px #cfc;
+}
+
+h1, h2, h3, h4, h5, h6, p, font {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #909;
+}
+
+p {
+	font-size: 15px;
+}
+
+img {
+	border: none;
+}
