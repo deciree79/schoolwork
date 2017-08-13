@@ -1,0 +1,81 @@
+﻿
+<! DOCTYPE html> <!-- Valt att ha space mellan '!' och Doctype pga att contentWrapper ignoreras utan -->
+
+
+<html lang="sv">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>MusicSite|AdminComment</title>
+	<script src="./js/commentFunctions.js"></script>
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+</head>
+
+<body id="body">
+	<div id="wrapper">
+
+		<header>
+			<h1>MusicSite</h1>
+		</header>
+
+		<div id="contentWrapper">
+
+			<article>
+
+		        	<h2>Admin Comment</h2>
+
+				<hr />
+
+				<p>
+					<fieldset>
+						<legend>Stored Comments</legend>
+						
+						<form action="admincomment.html" method="post" name="frmDeleteComment" onSubmit="verifyDeleteOfComment()">
+							<input type="hidden" id="hidId" value="53"/>
+							<input type="hidden" id="hidComment" value="Nostagi med ABBA"/>
+							
+							<input type="submit" id="btnDelete" value="Delete" />
+						</form>					
+						
+					</fieldset>
+				</p>
+
+
+			</article>
+
+			<nav>
+
+				<h2>Meny</h2>
+
+				<ul>
+
+					<li><a href="adminartist.html">Admin Artist</a></li>
+					
+					<li><a href="adminsong.html">Admin Song</a></li>
+					
+					<li><a href="admincomment.html">Admin Comment</a></li>
+					
+					<li><a href="logout.html">Logout</a></li>
+
+				</ul>
+
+			</nav>
+
+		</div>
+
+		<footer>
+
+			Copyright &copy; 2014 by Decirée Hofvander and Victora Nilsson<br />
+
+			created as a part of ISGB02 at Karlstads University in Sweden
+ 
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

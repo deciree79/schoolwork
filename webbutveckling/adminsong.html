@@ -1,0 +1,126 @@
+﻿
+<! DOCTYPE html> <!-- Valt att ha space mellan '!' och Doctype pga att contentWrapper ignoreras utan -->
+
+<html lang="sv">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>MusicSite|AdminSong</title>
+	<script src="./js/songFunctions.js"></script>
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+</head>
+
+<body id="body">
+	<div id="wrapper">
+
+		<header>
+			<h1>MusicSite</h1>
+		</header>
+
+		<div id="contentWrapper">
+
+			<article>
+
+		        	<h2>Admin Song</h2>
+
+				<hr />
+
+				<p>
+					<fieldset>
+						<legend>New/Edit Song</legend>
+						<form action="adminsong.html" method="post" name="frmNewUpdateSong" onsubmit="return validateNewUpdateSongFormData(this);">
+							<div id="errdiv"></div>
+							<input type="hidden" id="hidId" />
+							
+							<label for="cboArtist" >Artist:</label>
+							<br />
+							<select id="cboArtist" title="cboArtist" autofocus="autofocus">
+									<option value="0">Choose Artist</option>
+									<option value="1">AC/DC</option>
+									<option value="2">ABBA</option>
+							</select>
+							<br />
+							
+							<label for="txtTitle" >Song:</label>
+							<input type="text" id="txtTitle" title="Title"/>
+							<br />
+														
+							<label for="txtCount" >Count:</label>
+							<input type="text" id="txtCount" title="Count" />
+							<br />
+							
+							<input type="submit" id="btnSave" value="Save" />
+							<input type="button" id="btnReset" value="Reset" onClick="resetNewUpdateSongFormData(this.form);"/>
+						</form>
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Stored Songs</legend>
+						
+						<h3>Song 1</h3>
+						<form action="adminsong.html" method="post" name="frmEditDeleteSong" onsubmit="return verifyDeleteOfSong(this);">
+							<input type="hidden" id="hidId" value="AC/DC"/>
+							<input type="hidden" id="hidArtistId" value="1"/>
+							<input type="hidden" id="hidTitleId" value="Stiff Upper Lip"/>
+							<input type="hidden" id="hidCountId" value="45"/>
+							
+							<input type="button" id="btnEdit" value="Edit" onClick="copyEditDeleteSongFormData(this.form);"/>
+							<input type="submit" id="btnDelete" value="Delete"/>
+						</form> <br />
+						
+						
+						<h3>Song 2</h3>
+						<form action="adminsong.html" method="post" name="frmEditDeleteSong" onsubmit="return verifyDeleteOfSong(this);">
+							<input type="hidden" id="hidId" value="ABBA"/>
+							<input type="hidden" id="hidArtistId" value="2"/>
+							<input type="hidden" id="hidTitleId" value="Dancing Queen"/>
+							<input type="hidden" id="hidCountId" value="34"/>
+							
+							<input type="button" id="btnEdit" value="Edit" onClick="copyEditDeleteSongFormData(this.form);"/>
+							<input type="submit" id="btnDelete" value="Delete"/>
+						</form>
+						
+						
+					</fieldset>
+				</p>
+
+
+			</article>
+
+			<nav>
+
+				<h2>Meny</h2>
+
+				<ul>
+
+					<li><a href="adminartist.html">Admin Artist</a></li>
+					
+					<li><a href="adminsong.html">Admin Song</a></li>
+					
+					<li><a href="admincomment.html">Admin Comment</a></li>
+					
+					<li><a href="logout.html">Logout</a></li>
+
+				</ul>
+
+			</nav>
+
+		</div>
+
+		<footer>
+
+			Copyright &copy; 2014 by Decirée Hofvander and Victora Nilsson<br />
+
+			created as a part of ISGB02 at Karlstads University in Sweden
+ 
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

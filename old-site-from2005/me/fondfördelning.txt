@@ -1,0 +1,41 @@
+ 
+Resultat för vald testportfölj  
+
+   
+    
+ Tidsperiod:      12 månader  36 månader  60 månader 
+
+     
+   
+ 
+ 
+ 
+
+Värdeutveckling i %
+
+  maj-jul aug-okt nov-jan feb-apr 1997-2001 
+ Utveckling för vald testportfölj -6 -10 10 -10 93 
+ 
+
+
+Fondnr Fond Andel 
+ 573055 Roburs Mix Indexfond 10% 
+ 140087 Roburs Kommunikationsfond 25% 
+ 939850 Roburs Exportfond 20% 
+ 825109 Roburs Östeuropafond 20% 
+ 283408 Roburs Aktiefond Contura 25% 
+ 
+  Fond- nummer
+  Fondnamn
+  Fond- andelar (antal)
+  Kurs (kronor)
+  Värde (kronor)
+  Vald fördelning (procent)
+  Aktuell fördelning (procent)
+ 
+ 319236  Roburs Amerikafond 6,0976 24,83 151  20  20 
+ 939850  Roburs Exportfond 5,2811 28,53 151  20  20 
+ 140087  Roburs Kommunikationsfond 12,1317 17,14 208  30  27 
+ 573055  Roburs Mix Indexfond 0,6432 125,22 81  10  11 
+ 716373  Roburs Råvarufond 12,1552 13,59 165  20  22 
+ Summa: 756  

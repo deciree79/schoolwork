@@ -1,0 +1,97 @@
+﻿
+<! DOCTYPE html> <!-- Valt att ha space mellan '!' och Doctype pga att contentWrapper ignoreras utan -->
+
+
+<html lang="sv">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>MusicSite|AdminArtist</title>
+	<script src="./js/artistFunctions.js"></script>
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+</head>
+
+<body id="body">
+	<div id="wrapper">
+
+		<header>
+			<h1>MusicSite</h1>
+		</header>
+
+		<div id="contentWrapper">
+
+			<article>
+
+		        	<h2>Admin Artist</h2>
+
+				<hr />
+
+				<p>
+					<fieldset>
+						<legend>New/Edit Artist</legend>
+						<form action="adminartist.html" method="post" name="frmNewUpdateArtist" onsubmit="return validateNewUpdateArtistFormData(this);">
+							<div id="errdiv"></div>
+							<label for="txtArtist">Artist:</label><br />
+							<input type="text" id="txtArtist" /><br />
+							<input type="hidden" id="hidId" />
+							<input type="submit" id="Save" value="Save"/>
+							<input type="button" value="Reset" onClick="resetNewUpdateArtistFormData(this.form);"/>
+							
+						</form>
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Stored Artists</legend>
+						<form action="adminartist.html" method="post" name="frmEditDeleteArtist" onsubmit="return verifyDeleteOfArtist(this);">
+						
+							<input type="hidden" id="hidId" value="1" />
+							<input type="hidden" id="hidArtist" value="AC/DC" />
+							
+							<input type="button" id="btnEdit" value="Edit" onClick="copyEditDeleteArtistFormData(this.form);"/>
+							<input type="submit" id="btnDelete" value="Delete" />
+							
+						</form>
+						
+					</fieldset>
+				</p>
+
+
+			</article>
+
+			<nav>
+
+				<h2>Meny</h2>
+
+				<ul>
+
+					<li><a href="adminartist.html">Admin Artist</a></li>
+					
+					<li><a href="adminsong.html">Admin Song</a></li>
+					
+					<li><a href="admincomment.html">Admin Comment</a></li>
+					
+					<li><a href="logout.html">Logout</a></li>
+
+				</ul>
+
+			</nav>
+
+		</div>
+
+		<footer>
+
+			Copyright &copy; 2014 by Decirée Hofvander and Victora Nilsson<br />
+
+			created as a part of ISGB02 at Karlstads University in Sweden
+ 
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

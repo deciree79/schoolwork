@@ -1,0 +1,244 @@
+/**Vad g?r denna?**
+/
+root {
+ 
+    display: block;
+
+}
+
+/**Text**/
+
+p {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+}
+
+h1{
+    font-family: Garamond;
+    font-size: 50px;
+    color: black;
+    font-weight: 900;
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+}
+
+h3{
+	font-size: 14px;
+}
+
+/**Formulär**/
+
+#errdiv p{
+	color:red;
+}
+
+form{
+	margin: 5px;
+}
+
+input[type=search] {
+    width: 250px;
+    display: block;
+    margin: 5px 0px;
+    padding: 2px;
+}
+input[type=text] {
+    width: 150px;
+    display: block;
+    margin-bottom: 5px 0px;
+    padding: 2px;
+}input[type=password] {
+    width: 150px;
+    display: block;
+    margin: 5px 0px;
+    padding: 2px;
+}
+input[type=button] {
+    width: 50px;
+    margin: 0px 5px;
+    display: block;
+	float: left;
+}
+
+
+/**Meny**/
+
+nav {
+
+    margin-bottom: 5px;
+    background-color: transparent;
+
+    margin: 0px;
+
+    float: right;
+
+    width: 20%;
+
+    height: 92%;
+
+    text-align: center;
+
+}
+
+nav ul{
+
+    padding: 0px;
+
+}
+
+nav ul li{
+
+    margin: 0px;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    text-transform: capitalize;
+
+    text-align: center;
+
+    list-style-type: none;
+
+}
+
+nav ul li a{
+
+    width: 90%;
+    text-decoration: none;
+
+    background: url("../images/bg_header.jpg") center;
+
+    color: black;
+
+    border: solid 2px grey;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    display:block;
+}
+
+nav ul li a:hover{
+
+    border: solid 3px black;
+
+}
+
+/**Body**/
+
+body {
+
+    background: url("../images/bg_gradient.jpg");
+
+    background-repeat: repeat-x;
+
+    overflow: auto;
+
+    font-family: verdana;
+}
+
+/**Divven som ramar in hela inneh?llet**/
+
+#wrapper {
+
+    border: solid 2px grey;
+
+    border-radius: 20px;
+
+    margin: 0 auto;
+
+    width: 90%;
+
+    max-width: 800px;
+
+    min-width: 680px;
+
+}
+
+header {
+
+    margin: 0px;
+
+    border-top-left-radius: 16px;
+
+    border-top-right-radius: 16px;
+
+    background: url("../images/bg_header.jpg");
+
+    background-repeat: repeat-y;
+
+    padding: 10px;
+
+    height: 80px;
+
+}
+
+/**Main. Ligger mellan header och footer**/
+
+#contentWrapper {
+
+    background-color: white;
+
+    margin-top: 5px;
+
+    padding:0px;
+
+    height: 70%;
+
+}
+
+/**Main. Innehållet. Där allt händer. bredvid menyn**/
+
+article {
+
+    margin-bottom: 5px;
+
+    margin-right: 5px;
+
+    background-color: transparent;
+
+    margin: 0;
+
+    padding: 10px;
+
+    width: 77%;
+
+    height: 99%;
+
+    overflow: auto;
+
+    float: left;
+
+}
+
+/**Footer. Längst ner på sidan**/
+
+footer {
+
+    border-radius: 16px;
+
+    background-color: white;
+
+    height: 50px;
+
+    margin: 0px;
+
+    padding: 8px;
+
+    font-size: 11px;
+
+    color: grey;
+
+    text-align: center;
+
+    clear: both;
+
+}
